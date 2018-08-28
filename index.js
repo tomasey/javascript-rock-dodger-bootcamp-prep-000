@@ -9,11 +9,12 @@ const LEFT_ARROW = 37 // use e.which!
 const RIGHT_ARROW = 39 // use e.which!
 const ROCKS = []
 const START = document.getElementById('start')
-const dodgerLeftEdge = DODGER.style.left;
-const dodgerRightEdge = dodgerLeftEdge + 40;
-const rockLeftEdge = rock.style.left;
-const rockRightEdge = rockLeftEdge + 20;
-const top = rock.style.top;
+
+var dodgerLeftEdge = DODGER.style.left;
+var dodgerRightEdge = dodgerLeftEdge + 40;
+var rockLeftEdge = rock.style.left;
+var rockRightEdge = rockLeftEdge + 20;
+var rockTop = rock.style.top; 
 
 var gameInterval = null
 
