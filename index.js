@@ -38,7 +38,8 @@ function checkCollision(rock) {
     else {
       return false;
     }  
-  }
+  } 
+  
 }
 
 function createRock(x) {
