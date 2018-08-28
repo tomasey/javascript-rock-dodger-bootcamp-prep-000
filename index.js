@@ -9,6 +9,11 @@ const LEFT_ARROW = 37 // use e.which!
 const RIGHT_ARROW = 39 // use e.which!
 const ROCKS = []
 const START = document.getElementById('start')
+const dodgerLeftEdge = DODGER.style.left;
+const dodgerRightEdge = dodgerLeftEdge + 40;
+const rockLeftEdge = rock.style.left;
+const rockRightEdge = rockLeftEdge + 20;
+const top = rock.style.top;
 
 var gameInterval = null
 
@@ -16,17 +21,9 @@ var gameInterval = null
  * Be aware of what's above this line,
  * but all of your work should happen below.
  */
+ 
 
 function checkCollision(rock) {
-  const dodgerLeftEdge = DODGER.style.left;
-  const dodgerRightEdge = dodgerLeftEdge + 40;
-  const rockLeftEdge = rock.style.left;
-  const rockRightEdge = rockLeftEdge + 20;
-  const top = rock.style.top;
-  
-  //rock = {x: rockLeftEdge, y: rockRightEdge, height: 20, width: 20};
-  //dodger = {x: dodgerLeftEdge, y: dodgerRightEdge, height: 20, width: 40};
-  //if ();
   
   // implement me!
   // use the comments below to guide you!
