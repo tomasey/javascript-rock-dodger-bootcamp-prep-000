@@ -122,11 +122,12 @@ function moveDodger(e) {
 
 
 function moveDodgerLeft() {
-    window.requestAnimationFrame(
-     const left = positionToInteger(DODGER.style.left);
-     if(left >= 4) {
-       DODGER.style.left = `${left - 4}px`;
-     }
+    window.requestAnimationFrame(function() {
+      const left = positionToInteger(DODGER.style.left);
+      if(left >= 4) {
+        DODGER.style.left = `${left - 4}px`;
+      }
+    })
 }
 
 function moveDodgerRight() {
