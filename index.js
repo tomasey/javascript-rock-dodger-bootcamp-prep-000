@@ -16,14 +16,13 @@ var gameInterval = null
  * Be aware of what's above this line,
  * but all of your work should happen below.
  */
- 
+
+function checkCollision(rock) {
 var dodgerLeftEdge = DODGER.style.left;
 var dodgerRightEdge = dodgerLeftEdge + 40;
 var rockLeftEdge = rock.style.left;
 var rockRightEdge = rockLeftEdge + 20;
 var rockTop = rock.style.top; 
-
-function checkCollision(rock) {
   
   // implement me!
   // use the comments below to guide you!
