@@ -18,11 +18,11 @@ var gameInterval = null
  */
 
 function checkCollision(rock) {
-  var dodgerLeftEdge = parseInt(DODGER.style.left);
+  var dodgerLeftEdge = positionToInteger(DODGER.style.left);
   var dodgerRightEdge = dodgerLeftEdge + 40;
-  var rockLeftEdge = parseInt(rock.style.left);
+  var rockLeftEdge = positionToInteger(rock.style.left);
   var rockRightEdge = rockLeftEdge + 20;
-  var rockTop = parseInt(rock.style.top); 
+  var rockTop = positionToInteger(rock.style.top); 
 
   if (rockTop > GAME_HEIGHT - 40) {
     if ((rockRightEdge >= dodgerLeftEdge) && (rockLeftEdge <= dodgerRightEdge)) {
