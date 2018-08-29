@@ -112,17 +112,17 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  document.addEventListener('keydown', function(e) {
+  function left (e) {
   if (e.which === 37) {
     moveDodgerLeft()
   }
-})
+}
 
-document.addEventListener('keydown', function(e) {
+function right (e) {
   if (e.which === 39) {
     moveDodgerRight()
   }
-})
+}
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
