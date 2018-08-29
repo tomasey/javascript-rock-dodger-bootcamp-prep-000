@@ -82,7 +82,7 @@ function createRock(x) {
      } else {
        GAME.remove(rock);
      }
-
+}
     /**
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
@@ -96,7 +96,7 @@ function createRock(x) {
 
   // Finally, return the rock element you've created
   return rock;
-} }
+} 
 
 /**
  * End the game by clearing `gameInterval`,
