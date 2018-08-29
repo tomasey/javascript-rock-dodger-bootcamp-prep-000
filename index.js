@@ -131,12 +131,12 @@ function moveDodgerLeft() {
 }
 
 function moveDodgerRight() {
-     window.requestAnimationFrame(function(){
-      const left = positionToInteger(DODGER.style.left);
-      if(left <= 356){
-       DODGER.style.left = `${left + 4}px`;
-      }
-     })
+ window.requestAnimationFrame(function(){
+  const left = positionToInteger(DODGER.style.left);
+  if(left <= 356){
+   DODGER.style.left = `${left + 4}px`;
+  }
+ })
 }
 
 /**
