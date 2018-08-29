@@ -82,7 +82,7 @@ function createRock(x) {
      } else {
        GAME.remove(rock);
      }
-}
+  }
     
   // We should kick off the animation of the rock around here
   
