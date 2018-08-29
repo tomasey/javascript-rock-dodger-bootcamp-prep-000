@@ -112,17 +112,16 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  function left (e) {
+  
+  
   if (e.which === 37) {
     moveDodgerLeft()
-  }
-}
-
-function right (e) {
-  if (e.which === 39) {
+  } 
+  else if {
+    (e.which === 39) {
     moveDodgerRight()
   }
-}
+
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
