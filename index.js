@@ -18,11 +18,11 @@ var gameInterval = null
  */
 
 function checkCollision(rock) {
-  var dodgerLeftEdge = DODGER.style.left;
-  var dodgerRightEdge = parseInt(dodgerLeftEdge) + 40;
-  var rockLeftEdge = rock.style.left;
-  var rockRightEdge = parseInt(rockLeftEdge) + 20;
-  var rockTop = rock.style.top; 
+  var dodgerLeftEdge = parseInt(DODGER.style.left);
+  var dodgerRightEdge = dodgerLeftEdge + 40;
+  var rockLeftEdge = parseInt(rock.style.left);
+  var rockRightEdge = rockLeftEdge + 20;
+  var rockTop = parseInt(rock.style.top); 
   console.log(dodgerLeftEdge, dodgerRightEdge, rockLeftEdge, rockRightEdge, rockTop);
   // implement me!
   // use the comments below to guide you!
