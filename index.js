@@ -27,7 +27,6 @@ function checkCollision(rock) {
   
   // implement me!
   // use the comments below to guide you!
-rock = {hieght: 20, width: 20}; 
   // rocks are 20px high
   // DODGER is 20px high
   // GAME_HEIGHT - 20 - 20 = 360px;
