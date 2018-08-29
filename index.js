@@ -30,7 +30,7 @@ function checkCollision(rock) {
   // DODGER is 20px high
   // GAME_HEIGHT - 20 - 20 = 360px;
   if (rockTop > GAME_HEIGHT - 40) {
-    if ((rockRightEdge >= dodgerLeftEdge) && (rockLeftEdge <= dodgerRightEdge) && (rockLeftEdge <= dodgerLeftEdge)) {
+    if ((rockRightEdge >= dodgerLeftEdge) && (rockLeftEdge <= dodgerRightEdge)) {
       return true;
     } 
     else {
